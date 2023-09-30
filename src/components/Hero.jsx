@@ -22,12 +22,15 @@ const Hero = () => {
             &ensp; My journey is all about building software solutions that not only work but are also well designed. <br />
             &ensp; I'm into learning new technologies as well as connection with people in the realm of software engineering.
           </p>
+          <button class="shadow__btn">
+             <a href="src/assets/Aya HAMZA's Resume.pdf" download>My Resume</a>
+          </button>
         </div>
-
+       
       </div>
 
       <ComputersCanvas />
-      
+
     </section>
   )
 }
