@@ -1,36 +1,77 @@
-import {motion} from 'framer-motion';
-
-import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
-import './Hero.css'
+import './style/Hero.css'
+import { Col, Container, Row } from 'react-bootstrap';
+import { ArrowRightCircle } from 'react-bootstrap-icons';
+import TrackVisibility from 'react-on-screen';
+import { useState, useEffect } from 'react';
+import img from '../images/header-img.png'
 
 const Hero = () => {
+  const toRotate =["Software engineer","Full Stack Developer", "UI/UX Designer", "Mobile Developer"];
+  const [loopNum, setLoopNum] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [text, setText] = useState('');
+  const [index, setIndex] = useState(1);
+  const [delta, setDelta] = useState(300 - Math.random()*100);
+  const period = 500;
+
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
+  
+    return () => {clearInterval(ticker)};
+  }, [text])
+
+  const tick = () => {
+    let i = loopNum % toRotate.length;
+    let fullText = toRotate[i];
+    let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+
+    setText(updatedText);
+
+    if (isDeleting) {
+      setDelta(prevDelta => prevDelta / 2);
+    }
+
+    if (!isDeleting && updatedText === fullText) {
+      setIsDeleting(true);
+      setIndex(prevIndex => prevIndex - 1);
+      setDelta(period);
+    } else if (isDeleting && updatedText === '') {
+      setIsDeleting(false);
+      setLoopNum(loopNum + 1);
+      setIndex(1);
+      setDelta(500);
+    }else{
+      setIndex(prevIndex => prevIndex + 1);
+    }
+  }
+  
+  
   return (
-    <section className='background '>
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row
-      items-start gap-5`}> 
-
-        <div className='flex flex-col justify-center items-center mt-5 '>
-          <div  className='w-5 h-5 rounded-full bg-[#4361ee]'/>
-          <div  className='w-1 sm:h-80 h-40 violet-gradient'/>
-        </div>
-
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}> Hi, I'm <span className='text-[#4361ee]'> Aya Hamza</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white`}>
-            &ensp; I'm a passionate software engineer based in Tangier and the thing about me is that i love what i do✨. <br />
-            &ensp; My journey is all about building software solutions that not only work but are also well designed. <br />
-            &ensp; I'm into learning new technologies as well as connection with people in the realm of software engineering.
-          </p>
-          <button class="shadow__btn">
-             <a href="src/assets/Aya HAMZA's Resume.pdf" download>My Resume</a>
-          </button>
-        </div>
-       
-      </div>
-
-      <ComputersCanvas />
-
+    <section className='banner' id='home'>
+      <Container>
+        <Row className='align-items-center'>
+          <Col xs={12} md={6} xl={7}>
+          <TrackVisibility>
+              {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <span className='tagline'>Welcome to my Portfolio</span>
+                <h1>{`Hi there 👋! I'm Aya HAMZA`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+              </div>}
+            </TrackVisibility>          </Col>
+          <Col xs={12} md={6} xl={7}>
+          <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                  <img src={img} alt="Header Img"/>
+                </div>}
+            </TrackVisibility>
+          </Col>
+        </Row>
+      </Container>
     </section>
   )
 }
