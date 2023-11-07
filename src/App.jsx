@@ -6,8 +6,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div>
-          <Navbar/>
+        <Navbar/>
+        <div className='relative z-0'>
+         <StarsCanvas />
           <Hero />
         </div>
         <About />

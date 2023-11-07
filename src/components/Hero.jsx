@@ -12,7 +12,7 @@ const Hero = () => {
   const [text, setText] = useState('');
   const [index, setIndex] = useState(1);
   const [delta, setDelta] = useState(300 - Math.random()*100);
-  const period = 500;
+  const period = 100;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -52,17 +52,25 @@ const Hero = () => {
     <section className='banner' id='home'>
       <Container>
         <Row className='align-items-center'>
-          <Col xs={12} md={6} xl={7}>
+          <Col  md={6} className='text'>
           <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className='tagline'>Welcome to my Portfolio</span>
-                <h1>{`Hi there 👋! I'm Aya HAMZA`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <h1>Hi there 👋! I'm Aya HAMZA <br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I'm a dynamic software engineer and a creative UI/UX designer. My passion is in bringing together form and function to create exceptional digital experiences. Welcome to my portfolio, where technology meets artistry.</p>
+                  <button>
+                    <a href="src/assets/Aya HAMZA's Resume.pdf" target="_blank" rel="noopener noreferrer">
+                      <span>View my CV</span>
+                      <span><ArrowRightCircle size={25} /></span>
+                    </a>
+                  </button>
+
+
               </div>}
-            </TrackVisibility>          </Col>
-          <Col xs={12} md={6} xl={7}>
+            </TrackVisibility>          
+          </Col>
+          <Col md={6}>
           <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
