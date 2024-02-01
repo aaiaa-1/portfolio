@@ -92,7 +92,7 @@ margin-left: 25px;
 }
 .banner img {
   width: 600px;
-animation: updown 3s linear infinite;
+/* animation: updown 3s linear infinite; */
 padding-left: 0px;
 }
 .banner .text{
@@ -113,4 +113,8 @@ padding-left: 0px;
 }
 .txt-rotate > .wrap {
 border-right: 0.08em solid #666;
+}
+
+.pic{
+  width: 300px;
 }

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import { useState, useEffect } from 'react';
-import img from '../images/header-img.png'
+import img from '../images/header-img.jpg'
 
 const Hero = () => {
   const toRotate =["Software engineer","Full Stack Developer", "UI/UX Designer", "Mobile Developer"];
@@ -60,7 +60,7 @@ const Hero = () => {
                 <h1>Hi there 👋! I'm Aya HAMZA <br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a dynamic software engineer and a creative UI/UX designer. My passion is in bringing together form and function to create exceptional digital experiences. Welcome to my portfolio, where technology meets artistry.</p>
                   <button>
-                    <a href="src/assets/Aya HAMZA's Resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="src/assets/Aya-HAMZA(En).pdf" target="_blank" rel="noopener noreferrer">
                       <span>View my CV</span>
                       <span><ArrowRightCircle size={25} /></span>
                     </a>
@@ -70,13 +70,10 @@ const Hero = () => {
               </div>}
             </TrackVisibility>          
           </Col>
-          <Col md={6}>
-          <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={img} alt="Header Img"/>
-                </div>}
-            </TrackVisibility>
+          <Col md={6} style={{ textAlign: 'center' }}>
+            <div style={{ maxWidth: '450px', display: 'inline-block', marginTop:'2rem'}}>
+              <img src={img} alt="Header Img" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%'}} />
+            </div>
           </Col>
         </Row>
       </Container>

@@ -3,6 +3,25 @@ import {
   backend,
   creator,
   web,
+
+  airflow,
+  angular,
+  eureka,
+  graphql,
+  java,
+  jenkins,
+  kafka,
+  kubernetes,
+  nginx,
+  redis,
+  sklearn,
+  spring,
+  scrum,
+  oracle,
+  flask,
+  mysql,
+  postgresql,
+
   javascript,
   typescript,
   html,
@@ -16,13 +35,19 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  tangermed,
   tesla,
+  fiverr,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+
+
+  divo,
+
+  user
 } from "../assets";
 
 export const navLinks = [
@@ -42,31 +67,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "UI/UX Designer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Mobile Developer",
+    icon: mobile,
   },
+  
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "Java",
+    icon: java,
   },
   {
     name: "JavaScript",
@@ -77,94 +95,118 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Angular",
+    icon: angular,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "spring",
+    icon: spring,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "flask",
+    icon: flask,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "figma",
+    icon: figma,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "airflow",
+    icon: airflow,
+  },
+  {
+    name: "sklearn",
+    icon: sklearn,
+  },
+  {
+    name: "nginx",
+    icon: nginx,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "jenkins",
+    icon: jenkins,
+  },
+  {
+    name: "kafka",
+    icon: kafka,
+  },
+  {
+    name: "eureka",
+    icon: eureka,
+  },
+  {
+    name: "graphql",
+    icon: graphql,
+  },
+  {
+    name: "scrum",
+    icon: scrum,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "redis",
+    icon: redis,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+  {
+    name: "oracle",
+    icon: oracle,
+  },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack Developer",
+    company_name: "Tanger Med Port Authority",
+    icon: tangermed,
+    iconBg: "#FFFFFF",
+    date: "July 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Design and development of a notification system based on microservices architecture, intended for a SPA/PWA application.",
+      "Utilization of the MERN stack (MongoDB, Express.js, React, Node.js) for Full Stack development.",
+      "Containerization using Docker for efficient deployment and optimal scalability.",
+      "Integration of WebSockets for real-time communication and instant notifications.",
+      "Use of Git-Github for version control, fostering collaborative development within the team.",
+      "Gained experience while working among a big developers team.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "UI/UX Designer",
+    company_name: "Fiverr",
+    icon: fiverr,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a dedicated UI/UX freelancer on Fiverr, I specialize in creating visually stunning and user-friendly interfaces.",
+      "Leveraging my expertise in design principles and the latest industry trends, I craft engaging user experiences tailored to the unique needs of each project.",
+      "I take pride in delivering top-notch UI/UX solutions that elevate the overall user experience and functionality of web platforms.",
     ],
   },
 ];
@@ -172,93 +214,109 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "i Just had to drop a quick note to say that Aya's UI/UX design work on Fiverr was nothing short of amazing! The quality, creativity, and your ability to deliver on time were exceptional. I'm thoroughly impressed and highly recommend your services!",
+      name: "Fiverr Client",
+      designation: "Client",
+      company: "Fiverr",
+    image: user,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Really good quality work, just like the first time. I wouldn't hesitate to ask for a new project!",
+    name: "Fiverr Client",
+    designation: "Client",
+    company: "Fiverr",
+    image: user,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Amazing job done by aya, i'd totally recommend her work",
+      name: "Fiverr Client",
+      designation: "Client",
+      company: "Fiverr",
+    image: user,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SecureWheels",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "SecureWheels establish a decentralized architecture for managing automobile insurance contracts. The project embraces microservices, smart contracts and the integration of a recommendation system  based on machine learning algorithms to provide personalized recommendations.",
     tags: [
       {
-        name: "react",
+        name: "Blockchain",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Machine Learning",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Spring Boot",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DevOps",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Scrum",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/project-smart-contract",
   },
   {
-    name: "Job IT",
+    name: "GigSafari",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Whether you are a freelancer looking for opportunities or a client in search of services, CloneFiverr promises a seamless and secure platform for connecting talents with needs. This project is not just a clone; it's a showcase of innovation, skill, and a commitment to delivering a feature-rich web platform.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Angular",
+        color: "pink-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mohammedelbakkali/front-end-freelancer",
   },
   {
-    name: "Trip Guide",
+    name: "Divo Delivery",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Divo Delivery emerges as a dynamic delivery startup, deeply rooted in the bustling city of Tangier. Reliable delivery of not just food but anything you need. Divo Delivery is not just a delivery service; it's a local companion, simplifying your daily life and connecting you with the heart of Tangier.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "flutter",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "figma",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: divo,
+    source_code_link: "https://github.com/Divo-Delivery",
   },
 ];
 
