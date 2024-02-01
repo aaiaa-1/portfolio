@@ -60,7 +60,7 @@ const Hero = () => {
                 <h1>Hi there 👋! I'm Aya HAMZA <br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a dynamic software engineer and a creative UI/UX designer. My passion is in bringing together form and function to create exceptional digital experiences. Welcome to my portfolio, where technology meets artistry.</p>
                   <button>
-                    <a href="src/assets/Aya-HAMZA(En).pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1isfdcVXBddhBSImh8CKKl7OXL8tyIgk0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <span>View my CV</span>
                       <span><ArrowRightCircle size={25} /></span>
                     </a>
