@@ -51,6 +51,7 @@ import jobit from "./GigSafari.png";
 import tripguide from "./tripguide.png";
 
 import divo from "./divo.png";
+import ave from "./ave.png";
 import user from "./user.png";
 
 export {
@@ -104,5 +105,6 @@ export {
 
 
   divo,
+  ave,
   user,
 };

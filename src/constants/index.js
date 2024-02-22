@@ -46,6 +46,7 @@ import {
 
 
   divo,
+  ave,
 
   user
 } from "../assets";
@@ -317,6 +318,19 @@ const projects = [
     ],
     image: divo,
     source_code_link: "https://github.com/Divo-Delivery",
+  },
+  {
+    name: "Avé",
+    description:
+      "Avé rises as a vibrant local service, anchored in the heart of France. Beyond mere deliveries, Avé is your trusted companion, streamlining your daily routines and linking you seamlessly with your city. From essentials to indulgences, Avé is here to make your life easier, one delivery at a time.",
+    tags: [
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ave,
+    // source_code_link: "https://github.com/Divo-Delivery",
   },
 ];
 
