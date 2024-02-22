@@ -32,6 +32,7 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
+        {source_code_link && (
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -44,6 +45,7 @@ const ProjectCard = ({
               />
             </div>
           </div>
+        )}
         </div>
 
         <div className='mt-5'>
