@@ -69,6 +69,8 @@ color: #B8B8B8;
 font-size: 18px;
 letter-spacing: 0.8px;
 line-height: 1.5em;
+margin-bottom: 0px;
+
 width: 96%;
 }
 .banner a {
@@ -240,4 +242,21 @@ border-right: 0.08em solid #666;
 
 #github {
   fill: #333;
+}
+
+
+
+.linkedin{
+  width: 30px !important;
+  margin-left: 20px !important;
+  margin-right: 4px !important;
+}
+.github{
+  width: 38px !important;
+  margin-left: 10px !important;
+}
+.class {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }

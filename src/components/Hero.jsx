@@ -59,8 +59,22 @@ const Hero = () => {
                 <span className='tagline'>Welcome to my Portfolio</span>
                 <h1>Hi there 👋! I'm Aya HAMZA <br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a dynamic software engineer and a creative UI/UX designer. My passion is in bringing together form and function to create exceptional digital experiences. Welcome to my portfolio, where technology meets artistry.</p>
+                  
+                  <div className='class' >
+                    <div>
+                      <a href="https://www.linkedin.com/in/aya-hamza-a3a259219/" target="_blank">
+                        <img src="src/assets/linkedin.png" alt="LinkedIn"  className='linkedin'/>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="https://github.com/aaiaa-1" target="_blank">
+                        <img src="src/assets/github.png" alt="LinkedIn"  className='github'/>
+                      </a>
+                    </div>
+                  </div>
+
                   <button>
-                    <a href="https://drive.google.com/file/d/1isfdcVXBddhBSImh8CKKl7OXL8tyIgk0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1zg6QUb6GKn9l-oNFqhnXOYcoDVfo6bxz/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <span>View my CV</span>
                       <span><ArrowRightCircle size={25} /></span>
                     </a>
