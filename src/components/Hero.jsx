@@ -4,6 +4,8 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import { useState, useEffect } from 'react';
 import img from '../images/header-img.jpg'
+import { github } from "../assets";
+import { linkedin } from "../assets";
 
 const Hero = () => {
   const toRotate =["Software engineer","Full Stack Developer", "UI/UX Designer", "Mobile Developer"];
@@ -63,12 +65,12 @@ const Hero = () => {
                   <div className='class' >
                     <div>
                       <a href="https://www.linkedin.com/in/aya-hamza-a3a259219/" target="_blank">
-                        <img src="src/assets/linkedin.png" alt="LinkedIn"  className='linkedin'/>
+                        <img src={linkedin} alt="LinkedIn"  className='linkedin'/>
                       </a>
                     </div>
                     <div>
                       <a href="https://github.com/aaiaa-1" target="_blank">
-                        <img src="src/assets/github.png" alt="LinkedIn"  className='github'/>
+                        <img src={github} alt="LinkedIn"  className='github'/>
                       </a>
                     </div>
                   </div>

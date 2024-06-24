@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
 
   airflow,
@@ -21,32 +20,22 @@ import {
   flask,
   mysql,
   postgresql,
-
   javascript,
   typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
+
   tangermed,
-  tesla,
   fiverr,
-  shopify,
+  divo,
+  divoLogo,
+  expleo,
+
   carrent,
   jobit,
-  tripguide,
-  threejs,
-
-
-  divo,
-  ave,
 
   user
 } from "../assets";
@@ -199,17 +188,45 @@ const experiences = [
     ],
   },
   {
+    title: "Full Stack - Devops engineer",
+    company_name: "Divo Delivery",
+    icon: divoLogo,
+    iconBg: "#FFFFFF",
+    date: "July 2023 - Present",
+    points: [
+      "Design and development of a notification system based on microservices architecture, intended for a SPA/PWA application.",
+      "Utilization of the MERN stack (MongoDB, Express.js, React, Node.js) for Full Stack development.",
+      "Containerization using Docker for efficient deployment and optimal scalability.",
+      "Integration of WebSockets for real-time communication and instant notifications.",
+      "Use of Git-Github for version control, fostering collaborative development within the team.",
+      "Gained experience while working among a big developers team.",
+    ],
+  },
+  {
     title: "UI/UX Designer",
     company_name: "Fiverr",
     icon: fiverr,
     iconBg: "#E6DEDD",
-    date: "Nov 2021 - Present",
+    date: "Nov 2023 - June 2024",
     points: [
       "As a dedicated UI/UX freelancer on Fiverr, I specialize in creating visually stunning and user-friendly interfaces.",
       "Leveraging my expertise in design principles and the latest industry trends, I craft engaging user experiences tailored to the unique needs of each project.",
       "I take pride in delivering top-notch UI/UX solutions that elevate the overall user experience and functionality of web platforms.",
     ],
   },
+  {
+    title: "Software engineer intern",
+    company_name: "Expleo Group",
+    icon: expleo,
+    iconBg: "#FFF",
+    date: "June 2024 - September 2024",
+    points: [
+      "As a dedicated UI/UX freelancer on Fiverr, I specialize in creating visually stunning and user-friendly interfaces.",
+      "Leveraging my expertise in design principles and the latest industry trends, I craft engaging user experiences tailored to the unique needs of each project.",
+      "I take pride in delivering top-notch UI/UX solutions that elevate the overall user experience and functionality of web platforms.",
+    ],
+  },
+
 ];
 
 const testimonials = [
@@ -318,19 +335,6 @@ const projects = [
     ],
     image: divo,
     source_code_link: "https://github.com/Divo-Delivery",
-  },
-  {
-    name: "Avé",
-    description:
-      "Avé rises as a vibrant local service, anchored in the heart of France. Beyond mere deliveries, Avé is your trusted companion, streamlining your daily routines and linking you seamlessly with your city. From essentials to indulgences, Avé is here to make your life easier, one delivery at a time.",
-    tags: [
-      {
-        name: "figma",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ave,
-    // source_code_link: "https://github.com/Divo-Delivery",
   },
 ];
 

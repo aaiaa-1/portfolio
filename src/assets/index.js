@@ -40,27 +40,32 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import tangermed from "./company/tangermed.png";
-import tesla from "./company/tesla.png";
 import fiverr from "./company/fiverr.png";
+import expleo from "./company/expleo.png"
 
 import carrent from "./SecureWheels.png";
 import jobit from "./GigSafari.png";
 import tripguide from "./tripguide.png";
 
 import divo from "./divo.png";
+import divoLogo from "./company/divoLogo.png"
 import ave from "./ave.png";
 import user from "./user.png";
 
+import linkedin from "./linkedin.png";
+
+
+
 export {
+  linkedin,
+  github,
+
   logo,
   backend,
   creator,
   mobile,
   web,
-  github,
   menu,
   close,
   css,
@@ -76,10 +81,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+
+
   tangermed,
-  tesla,
+  expleo,
+  divoLogo,
   fiverr,
   carrent,
   jobit,
