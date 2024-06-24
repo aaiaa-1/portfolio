@@ -76,7 +76,7 @@ const Hero = () => {
                   </div>
 
                   <button>
-                    <a href="https://drive.google.com/file/d/1zg6QUb6GKn9l-oNFqhnXOYcoDVfo6bxz/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/162-VIF7LeMhzaagxOgiz8IX1ODzy9hU8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <span>View my CV</span>
                       <span><ArrowRightCircle size={25} /></span>
                     </a>
