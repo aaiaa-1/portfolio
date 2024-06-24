@@ -194,12 +194,11 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "July 2023 - Present",
     points: [
-      "Design and development of a notification system based on microservices architecture, intended for a SPA/PWA application.",
-      "Utilization of the MERN stack (MongoDB, Express.js, React, Node.js) for Full Stack development.",
-      "Containerization using Docker for efficient deployment and optimal scalability.",
-      "Integration of WebSockets for real-time communication and instant notifications.",
-      "Use of Git-Github for version control, fostering collaborative development within the team.",
-      "Gained experience while working among a big developers team.",
+      "Designing the architecture of Divo Delivery's applicaiton including Microservices Architecture and technologies to use",
+      "Developping Services and APIs using the whole Spring ecosystem including spring cloud for building scalable and resilient distributed systems, spring security, etc...",
+      "Developping Client applications (client app, delivery personnel app, restaurant app) using flutter and the admin dashboard using Angular",
+      "Implementing DevOps practices and tools to automate the deployment process and ensure the reliability of the application",
+      "Utilizing Scrum methodology to manage and execute the project. This includes regular sprint planning, daily stand-ups, sprint reviews, and retrospectives to ensure continuous improvement and effective collaboration within the team."
     ],
   },
   {
@@ -209,9 +208,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2023 - June 2024",
     points: [
-      "As a dedicated UI/UX freelancer on Fiverr, I specialize in creating visually stunning and user-friendly interfaces.",
-      "Leveraging my expertise in design principles and the latest industry trends, I craft engaging user experiences tailored to the unique needs of each project.",
-      "I take pride in delivering top-notch UI/UX solutions that elevate the overall user experience and functionality of web platforms.",
+      "Worked as a freelancer, providing UI/UX design services to clients across various industries.",
+      "this experience helped me to develop my skills in working with different clients accross the world and understand their needs and requirements.",
     ],
   },
   {
@@ -221,10 +219,7 @@ const experiences = [
     iconBg: "#FFF",
     date: "June 2024 - September 2024",
     points: [
-      "As a dedicated UI/UX freelancer on Fiverr, I specialize in creating visually stunning and user-friendly interfaces.",
-      "Leveraging my expertise in design principles and the latest industry trends, I craft engaging user experiences tailored to the unique needs of each project.",
-      "I take pride in delivering top-notch UI/UX solutions that elevate the overall user experience and functionality of web platforms.",
-    ],
+      "Worked on the development of a web application for managing the company's internal resources.",],
   },
 
 ];
@@ -260,7 +255,7 @@ const projects = [
   {
     name: "SecureWheels",
     description:
-      "SecureWheels establish a decentralized architecture for managing automobile insurance contracts. The project embraces microservices, smart contracts and the integration of a recommendation system  based on machine learning algorithms to provide personalized recommendations.",
+      "SecureWheels establish a decentralized architecture for managing automobile insurance contracts with Blockchain. The project embraces microservices, smart contracts and the integration of a recommendation system  based on machine learning algorithms to provide personalized recommendations.",
     tags: [
       {
         name: "Blockchain",
@@ -291,6 +286,47 @@ const projects = [
     source_code_link: "https://github.com/project-smart-contract",
   },
   {
+    name: "Divo Delivery",
+    description:
+      "Divo Delivery emerges as a dynamic delivery startup, deeply rooted in the bustling city of Tangier. Reliable delivery of not just food but anything you need. Divo Delivery is not just a delivery service; it's a local companion, simplifying your daily life and connecting you with the heart of Tangier.",
+    tags: [
+      {
+        name: "Spring ecosystem",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Microservices",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "DevOps",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Scrum",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Angular",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: divo,
+    source_code_link: "https://github.com/Divo-Delivery",
+  },
+  {
     name: "GigSafari",
     description:
       "Whether you are a freelancer looking for opportunities or a client in search of services, CloneFiverr promises a seamless and secure platform for connecting talents with needs. This project is not just a clone; it's a showcase of innovation, skill, and a commitment to delivering a feature-rich web platform.",
@@ -318,23 +354,6 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/mohammedelbakkali/front-end-freelancer",
-  },
-  {
-    name: "Divo Delivery",
-    description:
-      "Divo Delivery emerges as a dynamic delivery startup, deeply rooted in the bustling city of Tangier. Reliable delivery of not just food but anything you need. Divo Delivery is not just a delivery service; it's a local companion, simplifying your daily life and connecting you with the heart of Tangier.",
-    tags: [
-      {
-        name: "flutter",
-        color: "green-text-gradient",
-      },
-      {
-        name: "figma",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: divo,
-    source_code_link: "https://github.com/Divo-Delivery",
   },
 ];
 
