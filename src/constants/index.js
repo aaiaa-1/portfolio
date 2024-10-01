@@ -20,6 +20,10 @@ import {
   flask,
   mysql,
   postgresql,
+  grafana,
+  prometheus,
+  loki,
+  zipkin,
   javascript,
   typescript,
   nodejs,
@@ -61,11 +65,11 @@ const services = [
     icon: web,
   },
   {
-    title: "UI/UX Designer",
+    title: "DevOps Engineer",
     icon: backend,
   },
   {
-    title: "Mobile Developer",
+    title: "Freelance Coder",
     icon: mobile,
   },
   
@@ -168,6 +172,22 @@ const technologies = [
     name: "postgresql",
     icon: postgresql,
   },
+  {
+    name: "grafana",
+    icon: grafana,
+  },
+  {
+    name: "prometheus",
+    icon: prometheus,
+  },
+  {
+    name: "Grafana Loki",
+    icon: loki,
+  },
+  {
+    name: "zipkin",
+    icon: zipkin,
+  },
 
 ];
 
@@ -183,8 +203,6 @@ const experiences = [
       "Utilization of the MERN stack (MongoDB, Express.js, React, Node.js) for Full Stack development.",
       "Containerization using Docker for efficient deployment and optimal scalability.",
       "Integration of WebSockets for real-time communication and instant notifications.",
-      "Use of Git-Github for version control, fostering collaborative development within the team.",
-      "Gained experience while working among a big developers team.",
     ],
   },
   {
@@ -202,14 +220,14 @@ const experiences = [
     ],
   },
   {
-    title: "UI/UX Designer",
+    title: "Freelance Software engineer ",
     company_name: "Fiverr",
     icon: fiverr,
     iconBg: "#E6DEDD",
     date: "Nov 2023 - June 2024",
     points: [
-      "Worked as a freelancer, providing UI/UX design services to clients across various industries.",
-      "this experience helped me to develop my skills in working with different clients accross the world and understand their needs and requirements.",
+      "Worked as a freelancer, providing software engineering and design services to clients across various industries.",
+      "This experience has taught me how to work with clients from all over the world and understand their needs and requirements. and be able to deliver high-quality work that meets their expectations.",
     ],
   },
   {
@@ -219,7 +237,10 @@ const experiences = [
     iconBg: "#FFF",
     date: "June 2024 - September 2024",
     points: [
-      "Worked on the development of a web application for managing the company's internal resources.",],
+      "Worked on the development of an internal platform for managing the company's internal courses.",
+      "Use of Spring Boot for the Backend with a micro-services architecture using Spring Cloud and Netflix Eureka, security with Spring security. Not to mention Angular for the frontend.",
+      "Integration of Grafana Stack for observability and Apache Kafka for asynchronous communication between micro-services, and containerization using Docker."
+    ],
   },
 
 ];
@@ -227,7 +248,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "i Just had to drop a quick note to say that Aya's UI/UX design work on Fiverr was nothing short of amazing! The quality, creativity, and your ability to deliver on time were exceptional. I'm thoroughly impressed and highly recommend your services!",
+      "i Just had to drop a quick note to say that Aya's work on Fiverr was nothing short of amazing! The quality, creativity, and your ability to deliver on time were exceptional. I'm thoroughly impressed and highly recommend your services!",
       name: "Fiverr Client",
       designation: "Client",
       company: "Fiverr",

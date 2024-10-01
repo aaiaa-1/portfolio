@@ -50,7 +50,7 @@ const About = () => {
         As a software engineer, I've spent over 2 years immersed in the world of software development.        
         I love building softwares, debugging, trying new technologies, as well as connecting with people from the same community 
         <span style={{fontWeight: 700, fontSize: 18}}> - I just love my work - </span> <br />
-        I specialize in creating solutions that are not just technically robust but also intuitive for end-users. <br /> 
+        I specialize in creating solutions that are not just technically robust but also scalable. <br /> 
         &nbsp; &nbsp; &nbsp;  Let's work together to bring your ideas to life!
       </motion.p>
 

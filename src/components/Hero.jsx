@@ -8,7 +8,7 @@ import { github } from "../assets";
 import { linkedin } from "../assets";
 
 const Hero = () => {
-  const toRotate =["Software engineer","Full Stack Developer", "UI/UX Designer", "Mobile Developer"];
+  const toRotate =["Software engineer", "DevOps enthusiast", "Full Stack Developer"];
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -60,7 +60,9 @@ const Hero = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className='tagline'>Welcome to my Portfolio</span>
                 <h1>Hi there 👋! I'm Aya HAMZA <br /><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm a dynamic software engineer and a creative UI/UX designer. My passion is in bringing together form and function to create exceptional digital experiences. Welcome to my portfolio, where technology meets artistry.</p>
+                  <p>
+                  I’m a software engineer with a love for Java, DevOps, and building clean and scalable solutions. I’m all about creating smooth, efficient systems while having fun with code. Welcome to my little corner of the web, where tech gets a sprinkle of creativity! 💻✨
+                  </p>
                   
                   <div className='class' >
                     <div>
@@ -76,7 +78,7 @@ const Hero = () => {
                   </div>
 
                   <button>
-                    <a href="https://drive.google.com/file/d/162-VIF7LeMhzaagxOgiz8IX1ODzy9hU8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1Xb2JvfZmM4lDo8Vztp5caJ4aqJ5ExpLa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <span>View my CV</span>
                       <span><ArrowRightCircle size={25} /></span>
                     </a>
