@@ -24,7 +24,7 @@ import oracle from "./tech/oracle.png";
 import flask from "./tech/flask.png";
 import mysql from "./tech/mysql.png";
 import postgresql from "./tech/postgresql.png";
-import grafana from "./tech/grafana.png";
+import grafana from "./tech/grafanalogo.png";
 import prometheus from "./tech/prometheus.png";
 import loki from "./tech/loki.png";
 import zipkin from "./tech/zipkin.png";
