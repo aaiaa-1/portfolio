@@ -76,13 +76,12 @@ const Hero = () => {
                       </a>
                     </div>
                   </div>
+                  <a href="https://drive.google.com/file/d/1Xb2JvfZmM4lDo8Vztp5caJ4aqJ5ExpLa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <span>View my CV</span>
+                    <span style={{ marginLeft: '10px' }}><ArrowRightCircle size={25} /></span>
+                  </a>
 
-                  <button>
-                    <a href="https://drive.google.com/file/d/1Xb2JvfZmM4lDo8Vztp5caJ4aqJ5ExpLa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <span>View my CV</span>
-                      <span><ArrowRightCircle size={25} /></span>
-                    </a>
-                  </button>
+
                   
 
 
