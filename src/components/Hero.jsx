@@ -63,7 +63,9 @@ const Hero = () => {
                   <p>
                   I’m a software engineer with a love for Java, DevOps, and building clean and scalable solutions. I’m all about creating smooth, efficient systems while having fun with code. Welcome to my little corner of the web, where tech gets a sprinkle of creativity! 💻✨
                   </p>
-                  
+                 
+
+
                   <div className='class' >
                     <div>
                       <a href="https://www.linkedin.com/in/aya-hamza-a3a259219/" target="_blank">
@@ -75,15 +77,11 @@ const Hero = () => {
                         <img src={github} alt="LinkedIn"  className='github'/>
                       </a>
                     </div>
-                  </div>
-                  <a href="https://drive.google.com/file/d/1Xb2JvfZmM4lDo8Vztp5caJ4aqJ5ExpLa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1Xb2JvfZmM4lDo8Vztp5caJ4aqJ5ExpLa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <span>View my CV</span>
                     <span style={{ marginLeft: '10px' }}><ArrowRightCircle size={25} /></span>
                   </a>
-
-
-                  
-
+                  </div>
 
               </div>}
             </TrackVisibility>          
